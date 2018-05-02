@@ -66,9 +66,9 @@ int main()
     {
         union data_types dt;
         pop(&stack1,&dt);
-        printf("Zdj¹³em %d\n",dt.number);
+        printf("Zdjalem %d\n",dt.number);
     }
-    puts("zdejmujê ci¹gi znaków");
+    puts("zdejmuje ciagi znakow");
     union data_types dt2,dt3;
     pop(&stack2,&dt2);
     pop(&stack2,&dt3);
